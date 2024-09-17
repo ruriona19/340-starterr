@@ -1,0 +1,45 @@
+@media only screen and (min-width: 1024px) {
+
+  header img {
+    width: 60%;
+    height: auto;
+}
+
+  header nav {
+    grid-column: 8/13; 
+    grid-row: 1/2;
+    background-color:inherit;
+    padding-top: 1.3rem;
+    margin-left: -1rem;
+  }
+
+  header nav ul li a{
+    font-size: 1.4rem;
+  }
+
+  #hamburgerBtn { display: none;}
+
+  nav ul#primaryNav {
+      display: flex;
+      margin-left: 0.5vw;
+      padding: 1.8rem 0 0 0; 
+  }
+
+  nav ul li a {
+      border: none;
+      padding: .5rem 1rem;
+      font-size: 1.3rem;
+      text-align: left;
+  }
+
+  nav li.active a {        
+      background-color: inherit;
+      font-weight: 700;
+  }
+  
+  nav a:hover {
+      background-color: rgb(3, 132, 202);        
+      border-color: #fff;
+      color: #fff;
+  }        
+}
