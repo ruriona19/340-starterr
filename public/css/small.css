@@ -139,12 +139,12 @@ main img {
 	grid-row: 8/9;
 	display: grid;
     grid-template-columns: repeat(12, 1fr);
-	padding: 0.5rem;
 }
 
 #upgrades h1 {
 	grid-column: 1/13;
 	grid-row: 1/2;
+	font-size: 1.2rem;
 }
 
 #upgrades #flux-cap {
